@@ -7,7 +7,11 @@ Kullanıcılar araçları görüntüleyebilir, filtreleyebilir ve farklı marka/
 
 ## 🎥 Proje Gif Önizleme
 
-![Demo](./public/demo.gif)
+![Demo](./demo.gif)
+
+## 🌐 Live Demo
+
+🚗 Canlı Proje: https://car-project.vercel.app
 
 ## 🚀 Özellikler
 
