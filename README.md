@@ -1,73 +1,52 @@
-# React + TypeScript + Vite
+# 🚗 Car Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern ve kullanıcı dostu bir araba listeleme uygulaması geliştirdim.
+Kullanıcılar araçları görüntüleyebilir, filtreleyebilir ve farklı marka/model seçeneklerini keşfedebilir.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎥 Proje Gif Önizleme
 
-## React Compiler
+![Demo](./public/demo.gif)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Özellikler
 
-## Expanding the ESLint configuration
+✨ Marka ve model filtreleme
+✨ Dinamik araç listeleme sistemi
+✨ Responsive modern tasarım
+✨ TailwindCSS ile güçlü UI yapısı
+✨ TypeScript destekli güvenli yapı
+✨ Component tabanlı mimari
+✨ API / Mock veri desteği
+✨ Devamını yükle sistemi
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Kullanılan Teknolojiler
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+* React
+* TypeScript
+* Tailwind CSS
+* Vite
+* React Router DOM
+* React Select
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🎯 Bu Projede Öğrendiklerim
+
+✔ TypeScript type yönetimi
+✔ API ve mock data kullanımı
+✔ React component mimarisi
+✔ Dinamik filtreleme sistemi
+✔ TailwindCSS responsive yapı
+✔ State management mantığı
+✔ Listeleme ve render işlemleri
+
+
+
+## 👩‍💻 Developer
+
+### Helin Çelikbaş
+
